@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+body{
+    background-color: #CBB279;
+}
+
+
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 200px;
+width: 900px;
+height: 200px;
+background-color: #27374D;
+border-radius: 16px;
+left: 300px;
+
+}
+.dropdown{
+    width: 700px;
+    height: 100px;
+    border-radius: 16px;
+    background-color: #526D82;
+    display: flex;
+   align-items: center;
+}
+ul {
+    display: flex;
+}
+ul li {
+margin-left:25%;
+}
+ul li a{
+    color: #ffff;
+    font-size: 18px;
+    width: 100px;
+    font-weight: 600;
+}
+ul li a:hover{
+   background-color: #9DB2BF;
+   border-radius: 2px;
+   color: #5F264A;
+   border: 1px solid #025464;
+   border-radius: 2px;
+   
+  
+}
+.site{
+    display: none;
+    min-width: 120px;
+    position: absolute;
+    background-color: #537188;
+    border-radius: 5px;
+}
+.site li{
+    margin-top: 10px;
+   margin-left: 40px;
+  
+}
+.site a{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.site :hover >a {
+    background-color: #ffff;
+    color: #5F264A;
+    font-weight: 600;
+    border: 1px solid #025464;
+    border-radius: 2px;
+    
+}
+.dropdown .menu1 :hover .site {
+    display: block;
+}
+.site4{
+    display: none;
+    min-width: 100px;
+    position: absolute;
+    background-color: #537188;
+    border-radius: 2px;
+    left: 100px;
+}
+.site4 li{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.site4 a{
+    color: #ffff;
+    font-size: 20px;
+}
+.dropdown .site :hover .site4  {
+    display: block;
+}
+.site5{
+    display: none;
+    min-width: 100px;
+    position: absolute;
+    background-color: #537188;
+    border-radius: 2px;
+    left: 100px;
+}
+.dropdown .site4 :hover .site5{
+    display: block;
+}
+
